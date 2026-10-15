@@ -1,42 +1,31 @@
 # ForwardRequest
 
-**Brand:** ConnectWBT  
-**Department:** Integration And Forwarding  
-**Status:** `source-and-deployment-recorded`
+> Carry a request to the service or person that can act on it.
 
-## Overview
+## The Opportunity
 
-A WebSocket-based bidirectional request-forwarding service for relaying requests between applications, remote agents, IoT systems, or automation clients.
+ForwardRequest connects applications, remote tools, and services so a request can reach the right place and its result return—supporting workflows that cross devices and product boundaries.
 
-## Who It Is For
+## Who It Serves
 
-Developers connecting applications to external request or delivery services.
+Product teams, builders, and organizations coordinating work across connected services.
 
-## Capabilities
+## What It Makes Possible
 
-- Realtime bidirectional request forwarding over WebSockets
-- Connect applications to remote agents or automation endpoints
-- Deployed service URL is recorded; validate current service behavior before production use
+- Bridge requests and responses between connected services
+- Support remote tools and automation
+- Make cross-service actions possible with fewer handoffs
 
-## How To Use It
+## How People Use It
 
-1. Read the API documentation and configure an authorized client
-2. Connect to the service endpoint and register the forwarding target
-3. Send a test request and inspect the response and logs
+1. Choose the connected product or workflow.
+2. Send a request through the supported experience.
+3. Receive and review the result in the originating workflow.
 
-For exact installation steps, supported features, account requirements, and troubleshooting, follow the linked source documentation below. Where those links are not available yet, this page marks the gap instead of inventing product behavior.
+## How It Connects
 
-## Links
+- Supports connected-service workflows used by ConnectCrypt and the broader ConnectWBT ecosystem.
 
-- Canonical repository: Not recorded; verify the canonical repository before publishing.
-- Source project: `ForwardRequest`
-- Deployed applications:
-- [https://forwardrequest.netlify.app/](https://forwardrequest.netlify.app/)
+## Explore
 
-## Source Documentation
-
-- Source documentation is available in the corresponding project repository.
-
-## Catalog Maintenance
-
-Edit `portfolio_catalog/catalog.json` and run `python tools/build_project_catalog.py` to rebuild this page and its department indexes. Confirm repository ownership, product capabilities, installation steps, and deployment URLs before changing this project's status to `verified`.
+- [Official project repository](https://github.com/crooklanre/ForwardRequest)
